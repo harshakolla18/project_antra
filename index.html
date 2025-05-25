@@ -2,74 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whack-a-Mole Game</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whack-a-Mole Game</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="game-container">
-        <!-- Header Section -->
-        <header class="header">
-            <h1>Welcome to Whack-a-Mole</h1>
-            <div class="score-container">
-                Score: <span id="score">0</span>
-            </div>
-            <button id="startGame">Start Game!</button>
-        </header>
+  <div class="game-container">
+    <!-- Header Section -->
+    <header class="header">
+      <h1>Welcome to Whack-a-Mole</h1>
+      <div class="score-container">
+        Score: <span id="score">0</span>
+      </div>
+      <button id="startGame">Start Game!</button>
+    </header>
 
-        <!-- Timer Section -->
-        <div class="timer">
-            <strong>Time Left</strong><br> <span id="timeLeft">30</span>
-        </div>
-
-        <!-- Game Board -->
-        <div class="game-board">
-            <div class="block" data-index="0">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="1">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="2">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="3">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="4">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="5">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="6">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="7">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="8">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="9">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="10">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-            <div class="block" data-index="11">
-                <img src="Images/mole.jpeg" alt="Mole">
-            </div>
-        </div>
+    <!-- Timer Section -->
+    <div class="timer">
+      <strong>Time Left</strong><br> <span id="timeLeft">30</span>
     </div>
 
-    <!-- Scripts -->
-    <script src="js/model.js"></script>
-    <script src="js/view.js"></script>
-    <script src="js/controller.js"></script>
-    <script src="js/app.js"></script>
+    <!-- Game Board -->
+    <div class="game-board">
+      <div class="block" data-index="0">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="1">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="2">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="3">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="4">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="5">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="6">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="7">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="8">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="9">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="10">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+      <div class="block" data-index="11">
+        <img src="Images/mole.jpeg" alt="Mole" class="mole">
+        <img src="Images/snake.jpeg" alt="Snake" class="snake">
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/model.js"></script>
+  <script src="js/view.js"></script>
+  <script src="js/controller.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
